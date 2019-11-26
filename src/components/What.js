@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import agency from '../img/agency.png'
 import article from '../img/article.png'
 import coke from '../img/coke.png'
+import recipe from '../img/recipe.png'
+import rental from '../img/rental.png'
 
 
 
@@ -15,8 +17,8 @@ const What = () => {
           },
           {
             id:   2,
-            name: 'Random Article',
-            img: [article]
+            name: 'Recipe Search App',
+            img: [recipe]
           },
           {
             id:   3,
@@ -25,13 +27,13 @@ const What = () => {
           },
           {
             id:   4,
-            name: 'mary',
-            img: 'https://images.pexels.com/photos/2733862/pexels-photo-2733862.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+            name: 'Random Article',
+            img: [article]
           },
           {
             id:   5,
-            name: 'mary',
-            img: 'https://images.pexels.com/photos/2733862/pexels-photo-2733862.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+            name: 'Car Rental',
+            img: [rental]
           }
     ])
 
