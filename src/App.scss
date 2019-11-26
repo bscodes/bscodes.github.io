@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap');
+
+$primaryFont: 'Roboto', sans-serif;
+
+.title-font {
+    font-family: $primaryFont;
+}
+
+
 .App {
   text-align: center;
 }
@@ -20,3 +29,50 @@
 .App-link {
   color: #09d3ac;
 }
+
+.column-title {
+    .column-title-text {
+        font-size: 3rem;
+        font-weight: 900;
+    }
+
+    .column-spot {
+        font-size: 2rem;
+
+        span {
+            font-weight: 600;
+        }
+    }
+}
+
+.hey {
+    .social-buttons {
+        .social-button {
+            padding: 0.2rem;
+        }
+    }
+}
+
+.what {
+    .column-title {
+        .column-title-text {
+            font-size: 2.5rem;
+        }
+    }
+
+    .card {
+        border: none;
+        box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
+        .card-text {
+            color: #4a4a4a;
+        }
+        i {
+            span {
+                font-family: $primaryFont;
+                font-weight: 100;
+            }
+        }
+        
+    }
+}
+
