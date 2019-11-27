@@ -43,7 +43,7 @@ const Toggle = ({ theme, toggleTheme }) => {
     return (
         <div className="container-fluid">
             <div className="row">
-                <div className="dark-mode-button mt-3 ml-auto float-right">
+                <div className="dark-mode-button mt-3 ml-auto">
                     <div className="col-lg-12">
                         <ToggleContainer className="togglebutton" lightTheme={isLight} onClick={toggleTheme} >
                             <MoonIcon />
