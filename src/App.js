@@ -20,15 +20,15 @@ function App() {
     return (
         <ThemeProvider theme={themeMode}>
             <>
-            <div className="App title-font">
-            <GlobalStyles />
-            <Toggle theme={theme} toggleTheme={toggleTheme} />
-            <HashRouter basename="/">
-                            <Switch>
+                <div className="App title-font">
+                    <GlobalStyles />
+                    <Toggle theme={theme} toggleTheme={toggleTheme} />
+                    <HashRouter basename="/">
+                        <Switch>
                             <Route exact path = {'/'} component = {Home}/>    
-                            </Switch>
-                </HashRouter>  
-            </div>
+                        </Switch>
+                    </HashRouter>  
+                </div>
             </>
         </ThemeProvider>
     );
