@@ -27,7 +27,7 @@ const What = () => {
             "id":   3,
             "name": 'Coca Cola Store',
             "img": [coke],
-            "desc": "A small ecommerce application focussing on fundamentals of ReactJS. The web app consists of a Coca-Cola product page and a product shopping cart page."
+            "desc": "A small ecommerce application built with ReactJS. The web app consists of a product page and a shopping cart page."
 
           },
           {

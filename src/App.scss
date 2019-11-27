@@ -9,7 +9,6 @@ $primaryFont: 'Roboto', sans-serif;
 
 .App {
   text-align: center;
-  background: #FDFDFF;
 }
 
 .App-logo {
@@ -29,6 +28,18 @@ $primaryFont: 'Roboto', sans-serif;
 
 .App-link {
   color: #09d3ac;
+}
+
+.togglebutton {
+    width: 4rem;
+    height: 2.5rem; 
+    svg {
+        height: 80%;
+    }
+}
+
+.togglebutton:focus {
+    outline: none !important;
 }
 
 .column-title {
@@ -117,6 +128,11 @@ $primaryFont: 'Roboto', sans-serif;
     }
 }
 @media (min-width: 320px) and (max-width: 480px) {
+
+    .togglebutton {
+        width: 3.3rem;
+        height: 2.2rem;
+    }
   
     .skill-list-group {
         li {
