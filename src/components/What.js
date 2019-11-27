@@ -11,29 +11,37 @@ const What = () => {
 
     const [projects] = useState([
         {
-            id:   1,
-            name: 'Creative Agency',
-            img: [agency]
+            "id":   1,
+            "name": 'Creative Agency',
+            "img": [agency],
+            "desc": "A Creative Agency website built with React and Redux. Includes team, portfolio, services pages and a contact form"
           },
           {
-            id:   2,
-            name: 'Recipe Search App',
-            img: [recipe]
+            "id":   2,
+            "name": 'Recipe Search App',
+            "img": [recipe],
+            "desc": "Recipe Search App is a web app that was built with React. I used to an API for development fist time!"
+
           },
           {
-            id:   3,
-            name: 'Coca Cola Store',
-            img: [coke]
+            "id":   3,
+            "name": 'Coca Cola Store',
+            "img": [coke],
+            "desc": "A small ecommerce application focussing on fundamentals of ReactJS. The web app consists of a Coca-Cola product page and a product shopping cart page."
+
           },
           {
-            id:   4,
-            name: 'Random Article',
-            img: [article]
+            "id":   4,
+            "name": 'Random Article',
+            "img": [article],
+            "desc": "Random Article is a website that was built with React Hooks as a personal project. I used to an article database for it."
+
           },
           {
-            id:   5,
-            name: 'Car Rental',
-            img: [rental]
+            "id":   5,
+            "name": 'Car Rental',
+            "img": [rental],
+            "desc": "A car rental company website frontend project with HTML & CSS and Javascript"
           }
     ])
 
@@ -61,7 +69,7 @@ const What = () => {
                                             {p.name}
                                         </h2>
                                         <p className="card-text">
-                                        Some quick example text to build on the card title and make up the bulk of the card's content
+                                        {p.desc}
                                         </p>
                                         <a href="/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary mr-3">
                                             <i className="fab fa-github fa-2x"></i>
