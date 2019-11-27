@@ -9,6 +9,7 @@ $primaryFont: 'Roboto', sans-serif;
 
 .App {
   text-align: center;
+  background: #FDFDFF;
 }
 
 .App-logo {
@@ -76,3 +77,73 @@ $primaryFont: 'Roboto', sans-serif;
     }
 }
 
+.about {
+    .column-title {
+        .column-title-text {
+            font-size: 2.5rem;
+        }
+    }
+
+    .skill-list-group {
+        line-height: 1.7;
+
+        li {
+            margin-bottom: 1.5rem;
+            h4 {
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+.me {
+    .column-title {
+        .column-title-text {
+            font-size: 2.5rem;
+        }
+    }
+
+    .social-buttons {
+        
+        .mail-button {
+            .mail {
+                border-bottom: 5px solid #007bff;
+            }
+        }
+
+        :hover  {
+            text-decoration: none !important;
+        }
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .skill-list-group {
+        li {
+            h4 {
+                font-size: 1rem;
+                padding-right: 3rem;
+            }
+        }
+    }
+
+    .me {
+        .column-title {
+            .column-spot {
+                font-size: 1.5rem;
+            }
+        }
+        
+        .social-buttons {
+            font-size: 13px;
+            
+            .mail-button{
+                
+                h3 {
+                    font-size: 1.05rem;
+                }
+            }
+        }
+    }
+    
+}

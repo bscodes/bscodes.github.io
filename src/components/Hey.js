@@ -22,6 +22,9 @@ const Hey = () => {
                                     <a className="social-button" href="https://twitter.com/bscoding" target="_blank" rel="noopener noreferrer">
                                         <i className="fab fa-twitter fa-2x"></i>
                                     </a>
+                                    <a className="social-button" href="mailto:bilalresmi@gmail.com" target="_blank" rel="noopener noreferrer">
+                                        <i className="fas fa-at fa-2x"></i>
+                                    </a>
                                 </div>
                             </div> 
                         </div>
