@@ -31,8 +31,8 @@ $primaryFont: 'Roboto', sans-serif;
 }
 
 .togglebutton {
-    width: 4rem;
-    height: 2.5rem; 
+    width: 4rem !important;
+    height: 2.5rem !important; 
     svg {
         height: 80%;
     }
