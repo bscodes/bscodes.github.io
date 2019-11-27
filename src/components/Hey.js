@@ -9,7 +9,7 @@ const Hey = () => {
                         <div className="column-title mt-3">
                             <div className="col-lg-12">
                                 <h1 className="column-title-text">
-                                Hey! I’m Bilal Sevinç.
+                                Hey! I’m Bilal Sevinc.
                                 </h1>
                                 <h3 className="column-spot mt-4">
                                 I'm a <span>front-end developer</span>, currently looking for a new role in globe.
