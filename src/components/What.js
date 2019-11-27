@@ -14,12 +14,16 @@ const What = () => {
             "id":   1,
             "name": 'Creative Agency',
             "img": [agency],
+            "github": "https://github.com/bscodes/react-agency-website",
+            "demo": "https://bscodes.github.io/react-agency-website/#/",
             "desc": "A Creative Agency website built with React and Redux. Includes team, portfolio, services pages and a contact form"
           },
           {
             "id":   2,
             "name": 'Recipe Search App',
             "img": [recipe],
+            "github": "https://github.com/bscodes/Recipe-Search-App",
+            "demo": "https://bscodes.github.io/Recipe-Search-App/#/",
             "desc": "Recipe Search App is a web app that was built with React. I used to an API for development fist time!"
 
           },
@@ -27,6 +31,8 @@ const What = () => {
             "id":   3,
             "name": 'Coca Cola Store',
             "img": [coke],
+            "github": "https://github.com/bscodes/coca-cola-app",
+            "demo": "https://bscodes.github.io/coca-cola-app/#/",
             "desc": "A small ecommerce application built with ReactJS. The web app consists of a product page and a shopping cart page."
 
           },
@@ -34,6 +40,8 @@ const What = () => {
             "id":   4,
             "name": 'Random Article',
             "img": [article],
+            "github": "https://github.com/bscodes/Random-Article-Button",
+            "demo": "https://bscodes.github.io/Random-Article-Button/#/",
             "desc": "Random Article is a website that was built with React Hooks as a personal project. I used to an article database for it."
 
           },
@@ -41,6 +49,8 @@ const What = () => {
             "id":   5,
             "name": 'Car Rental',
             "img": [rental],
+            "github": "https://github.com/bscodes/car-rental-site-concept",
+            "demo": "https://bscodes.github.io/car-rental-site-concept/#/",
             "desc": "A car rental company website frontend project with HTML & CSS and Javascript"
           }
     ])
@@ -71,10 +81,10 @@ const What = () => {
                                         <p className="card-text">
                                         {p.desc}
                                         </p>
-                                        <a href="/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary mr-3">
+                                        <a href={p.github} target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary mr-3">
                                             <i className="fab fa-github fa-2x"></i>
                                         </a>
-                                        <a href="/" target="_blank" rel="noopener noreferrer" className="view btn btn-primary">
+                                        <a href={p.demo} target="_blank" rel="noopener noreferrer" className="view btn btn-primary">
                                         <i className="fas fa-external-link-alt fa-2x">  <span>View</span> </i>
                                         </a>
                                     </div>
