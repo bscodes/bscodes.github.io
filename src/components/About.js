@@ -9,13 +9,16 @@ const About = () => {
                         <div className="column-title mt-3">
                             <div className="col-lg-12">
                                 <h1 className="column-title-text">
-                                Why me?
+                                About me
                                 </h1>
                                 
                                 <div className="skill-list pt-3">
                                     <ul className="skill-list-group list-group-flush">
                                         <li className="list-item">
-                                            <h4>Skilled with HTML, CSS, SASS, Bootstrap JavaScript and React, and happy to learn new languages, libraries and frameworks. <span role="img" aria-label="rocket">🚀</span></h4>
+                                            <h4>I'm currently working as a freelance and contractor front-end developer for about 1 year.</h4>
+                                        </li>
+                                        <li className="list-item">
+                                            <h4>Skilled and experienced with HTML, CSS, SASS, Bootstrap JavaScript and React, and happy to learn new languages, libraries and frameworks. <span role="img" aria-label="rocket">🚀</span></h4>
                                         </li>
                                         <li className="list-item">
                                             <h4>From design to development. Learning and experimenting is in my genes.</h4>
@@ -25,9 +28,6 @@ const About = () => {
                                         </li>
                                         <li className="list-item">
                                             <h4>Solving problems developing a minimum viable product and learning as quickly as possible to iterate.</h4>
-                                        </li>
-                                        <li className="list-item">
-                                            <h4>Ready and keen to a remote work or relocate (I speak English well) <span role="img" aria-label="luggage"> 🧳</span></h4>
                                         </li>
                                     </ul>
                                 </div>

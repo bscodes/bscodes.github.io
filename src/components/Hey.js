@@ -12,7 +12,7 @@ const Hey = () => {
                                 Hey! I’m Bilal Sevinc.
                                 </h1>
                                 <h3 className="column-spot mt-4">
-                                I'm a <span>front-end developer</span>, currently looking for a new role in globe.
+                                I'm a <span>front-end developer</span> passionate about creating exciting experiences using web technologies.
                                 <span role="img" aria-label="👨🏻‍💻 "> 👨🏻‍💻 </span>
                                 </h3>
                                 <div className="social-buttons pt-3">
