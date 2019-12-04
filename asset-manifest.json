@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.a689640d.chunk.css",
-    "main.js": "/static/js/main.bf76b885.chunk.js",
-    "main.js.map": "/static/js/main.bf76b885.chunk.js.map",
+    "main.css": "/static/css/main.5fc53fa9.chunk.css",
+    "main.js": "/static/js/main.cbd4837c.chunk.js",
+    "main.js.map": "/static/js/main.cbd4837c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8896086d.js",
     "runtime-main.js.map": "/static/js/runtime-main.8896086d.js.map",
     "static/js/2.524bc227.chunk.js": "/static/js/2.524bc227.chunk.js",
     "static/js/2.524bc227.chunk.js.map": "/static/js/2.524bc227.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.709aed36b94e9c7552cb26e2cbe46f19.js": "/precache-manifest.709aed36b94e9c7552cb26e2cbe46f19.js",
+    "precache-manifest.a63c3b0859fc4543e6ed0c0f4f032e97.js": "/precache-manifest.a63c3b0859fc4543e6ed0c0f4f032e97.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.a689640d.chunk.css.map": "/static/css/main.a689640d.chunk.css.map",
+    "static/css/main.5fc53fa9.chunk.css.map": "/static/css/main.5fc53fa9.chunk.css.map",
     "static/media/agency.png": "/static/media/agency.b2427ac7.png",
     "static/media/article.png": "/static/media/article.de60b333.png",
     "static/media/coke.png": "/static/media/coke.d9f8f8b3.png",
-    "static/media/moon.5498dd15.svg": "/static/media/moon.5498dd15.svg",
+    "static/media/moon.b5d59672.svg": "/static/media/moon.b5d59672.svg",
     "static/media/recipe.png": "/static/media/recipe.6bdf8c31.png",
     "static/media/rental.png": "/static/media/rental.86f6a57f.png",
-    "static/media/sun.771019f4.svg": "/static/media/sun.771019f4.svg"
+    "static/media/sun.c89cd918.svg": "/static/media/sun.c89cd918.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.8896086d.js",
     "static/js/2.524bc227.chunk.js",
-    "static/css/main.a689640d.chunk.css",
-    "static/js/main.bf76b885.chunk.js"
+    "static/css/main.5fc53fa9.chunk.css",
+    "static/js/main.cbd4837c.chunk.js"
   ]
 }
