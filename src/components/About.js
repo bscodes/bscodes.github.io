@@ -15,7 +15,7 @@ const About = () => {
                                 <div className="skill-list pt-3">
                                     <ul className="skill-list-group list-group-flush">
                                         <li className="list-item">
-                                            <h4>I'm currently working as a freelance and contractor front-end developer for about 1 year.</h4>
+                                            <h4>I'm currently working as a front-end developer.</h4>
                                         </li>
                                         <li className="list-item">
                                             <h4>Skilled and experienced with HTML, CSS, SASS, Bootstrap JavaScript and React, and happy to learn new languages, libraries and frameworks. <span role="img" aria-label="rocket">🚀</span></h4>
