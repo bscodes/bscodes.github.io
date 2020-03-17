@@ -3,7 +3,7 @@ import agency from '../img/agency.png'
 import article from '../img/article.png'
 import coke from '../img/coke.png'
 import recipe from '../img/recipe.png'
-import rental from '../img/rental.png'
+import yourway from '../img/yourway.png'
 
 
 
@@ -11,6 +11,14 @@ const What = () => {
 
     const [projects] = useState([
         {
+            "id":   5,
+            "name": 'yourwayinkiev.com',
+            "img": [yourway],
+            "github": "https://github.com/bscodes/Real-Estate",
+            "demo": "https://www.yourwayinkiev.com/#/",
+            "desc": "A Kiev based real estate agent website built for my costomer with React and Redux"
+          },
+          {
             "id":   1,
             "name": 'Creative Agency',
             "img": [agency],
@@ -24,7 +32,7 @@ const What = () => {
             "img": [recipe],
             "github": "https://github.com/bscodes/Recipe-Search-App",
             "demo": "https://bscodes.github.io/Recipe-Search-App/#/",
-            "desc": "Recipe Search App is a web app that was built with React. I used to an API for development fist time!"
+            "desc": "Recipe Search App is a web app that was built with React."
 
           },
           {
@@ -44,14 +52,6 @@ const What = () => {
             "demo": "https://bscodes.github.io/Random-Article-Button/#/",
             "desc": "Random Article is a website that was built with React Hooks as a personal project. I used to an article database for it."
 
-          },
-          {
-            "id":   5,
-            "name": 'Car Rental',
-            "img": [rental],
-            "github": "https://github.com/bscodes/car-rental-site-concept",
-            "demo": "https://bscodes.github.io/car-rental-site-concept/#/",
-            "desc": "A car rental company website frontend project with HTML & CSS and Javascript"
           }
     ])
 
@@ -63,7 +63,7 @@ const What = () => {
                         <div className="column-title mt-3 mb-3">
                             <div className="col-lg-12">
                                 <h1 className="column-title-text">
-                                Projects
+                                Works
                                 </h1>
                             </div> 
                         </div>
@@ -78,9 +78,11 @@ const What = () => {
                                         <h2 className="card-title">
                                             {p.name}
                                         </h2>
-                                        <p className="card-text">
-                                        {p.desc}
-                                        </p>
+                                        <div className="card-text-wrapper">
+                                            <p className="card-text">
+                                                {p.desc}
+                                            </p>
+                                        </div>
                                         <a href={p.github} target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary mr-3">
                                             <i className="fab fa-github fa-2x"></i>
                                         </a>

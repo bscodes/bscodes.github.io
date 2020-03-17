@@ -75,15 +75,24 @@ $primaryFont: 'Roboto', sans-serif;
     .card {
         border: none;
         box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
-        .card-text {
-            color: #4a4a4a;
-        }
-        i {
-            span {
-                font-family: $primaryFont;
-                font-weight: 100;
+        .card-text-wrapper {
+            height: 5rem;
+
+            .card-text {
+                color: #4a4a4a;
             }
         }
+        .btn {
+            font-size: 0.8rem;
+
+            i {
+                span {
+                    font-family: $primaryFont;
+                    font-weight: 100;
+                }
+            }
+        }
+        
         
     }
 }
