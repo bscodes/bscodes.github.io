@@ -75,6 +75,10 @@ $primaryFont: 'Roboto', sans-serif;
     .card {
         border: none;
         box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
+
+        .card-title {
+            font-weight: 600;
+        }
         .card-text-wrapper {
             height: 5rem;
 
@@ -136,6 +140,8 @@ $primaryFont: 'Roboto', sans-serif;
         }
     }
 }
+
+
 @media (min-width: 320px) and (max-width: 480px) {
 
     .togglebutton {
@@ -152,10 +158,16 @@ $primaryFont: 'Roboto', sans-serif;
         }
     }
 
+    .card-text-wrapper {
+        height: 7rem !important;
+        margin-bottom: 1rem;
+    }
+
     .me {
         .column-title {
             .column-spot {
                 font-size: 1.5rem;
+                
             }
         }
         

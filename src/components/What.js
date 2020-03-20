@@ -78,6 +78,7 @@ const What = () => {
                                         <h2 className="card-title">
                                             {p.name}
                                         </h2>
+                                        <hr className="gray-line"/>
                                         <div className="card-text-wrapper">
                                             <p className="card-text">
                                                 {p.desc}
