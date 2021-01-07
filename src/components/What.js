@@ -4,6 +4,7 @@ import article from '../img/article.png'
 import coke from '../img/coke.png'
 import recipe from '../img/recipe.png'
 import yourway from '../img/yourway.png'
+import covid from '../img/covid19.png'
 
 
 
@@ -11,22 +12,30 @@ const What = () => {
 
     const [projects] = useState([
         {
+            "id":   6,
+            "name": 'COVID-19 Overview',
+            "img": [covid],
+            "github": "https://github.com/bscodes/covid-19-overview",
+            "demo": "https://covidoverview.netlify.app/",
+            "desc": "A dashboard to track the impact of COVID-19 global pandemic. Built with React"
+        },
+        {
             "id":   5,
             "name": 'yourwayinkiev.com',
             "img": [yourway],
             "github": "https://github.com/bscodes/Real-Estate",
             "demo": "https://www.yourwayinkiev.com/#/",
             "desc": "A Kiev based real estate agent website built for my costomer with React and Redux"
-          },
-          {
+        },
+        {
             "id":   1,
             "name": 'Creative Agency',
             "img": [agency],
             "github": "https://github.com/bscodes/react-agency-website",
             "demo": "https://bscodes.github.io/react-agency-website/#/",
             "desc": "A Creative Agency website built with React and Redux. Includes team, portfolio, services pages and a contact form"
-          },
-          {
+        },
+        {
             "id":   2,
             "name": 'Recipe Search App',
             "img": [recipe],
@@ -34,8 +43,8 @@ const What = () => {
             "demo": "https://bscodes.github.io/Recipe-Search-App/#/",
             "desc": "Recipe Search App is a web app that was built with React."
 
-          },
-          {
+        },
+        {
             "id":   3,
             "name": 'Coca Cola Store',
             "img": [coke],
@@ -43,8 +52,8 @@ const What = () => {
             "demo": "https://bscodes.github.io/coca-cola-app/#/",
             "desc": "A small ecommerce application built with ReactJS. The web app consists of a product page and a shopping cart page."
 
-          },
-          {
+        },
+        {
             "id":   4,
             "name": 'Random Article',
             "img": [article],
